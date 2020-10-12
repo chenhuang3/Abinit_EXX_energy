@@ -22,9 +22,9 @@ istwfk 1
 ecut  400 eV
 acell 10.0 8.0 8.0 angstrom
 rprim
-1.0 0.0 0.0
-0.0 1.0 0.0
-0.0 0.0 1.0
+1.0 0.0 0.0\n
+0.0 1.0 0.0\n
+0.0 0.0 1.0\n
 
 ngkpt 1  1  1
 nshiftk 1 
