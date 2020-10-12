@@ -16,7 +16,6 @@ A sample job
 ============
 
 ------------  ABINIT INPUT FILE  ----------------
-# Simulation parameters
 nsym 1
 istwfk 1
 
@@ -27,7 +26,6 @@ rprim
 0.0 1.0 0.0
 0.0 0.0 1.0
 
-# K-points
 ngkpt 1  1  1
 nshiftk 1 
 shiftk
@@ -35,7 +33,6 @@ shiftk
 occopt 3
 tsmear 0.01 eV
 
-# System description
 ntypat 1
 znucl  7
 natom  2
@@ -53,7 +50,8 @@ iscf  17
 
 
 
-
+rpa_kpm.ini file 
+================
 This program needs the rpa_kpm.ini file in which we type "exx" in 
 the first line to let the program run EXX energy.
 ----------------------- rpa_kpm.ini file ----------------------------
@@ -87,7 +85,8 @@ manual
 
 
 
-
+job submission script 
+=====================
 Run this ABINIT input file with our modified ABINIT program which is located here
 /gpfs/home/chuang3/codes/abinit_KPM_RPA/abinit-7.10.4_kpm/src/98_main/abinit
 Run the job with 1 CPU. The sample job.s file is given 
