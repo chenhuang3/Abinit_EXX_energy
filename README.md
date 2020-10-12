@@ -38,8 +38,8 @@ znucl  7
 natom  2  
 typat 1 1  
 xangst  
-  5.0   4.000   4.0  
-  6.1   4.0     4.0  
+>>5.0   4.000   4.0  
+>>6.1   4.0     4.0  
 nband  10  
 nbdbuf 2  
 nstep   100  
