@@ -53,8 +53,8 @@ iscf  17
 rpa_kpm.ini file 
 ================
 This program needs the rpa_kpm.ini file in which we type "exx" in  
-the first line to let the program run EXX energy.  
-The values in "manual" section is not important for EXX calculations.  
+the first line to let the program compute EXX energy.  
+The numbers listed in the "manual" section are not important for EXX calculations.  
 ----------------------- rpa_kpm.ini file ----------------------------  
 exx            ! eig_min: compute eigenvalues, eig_all: compute neig eigenvalues, kpm: compute RPA energy  
 123            ! rand_seed  
